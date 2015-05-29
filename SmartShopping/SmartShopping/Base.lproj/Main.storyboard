@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="LoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smart Shopping" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUN-xJ-9gz">
+                                <rect key="frame" x="51" y="153" width="219" height="87"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="OR8-mc-f5R"/>
+                                    <constraint firstAttribute="width" constant="219" id="g06-dd-Nxr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="26"/>
+                                <color key="textColor" red="0.32941176470588235" green="0.57771990740740742" blue="0.70764569716775594" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Blue Beacon.png" translatesAutoresizingMaskIntoConstraints="NO" id="3tD-OF-TAQ">
+                                <rect key="frame" x="8" y="20" width="201" height="141"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="201" id="acy-Uv-7VS"/>
+                                    <constraint firstAttribute="height" constant="141" id="bPP-el-Jpo"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Blue Beacon 1.png" translatesAutoresizingMaskIntoConstraints="NO" id="CeD-dY-c9y">
+                                <rect key="frame" x="27" y="464" width="181" height="105"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Blue Beacon 2.png" translatesAutoresizingMaskIntoConstraints="NO" id="SOZ-Zn-upo">
+                                <rect key="frame" x="280" y="53" width="41" height="114"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="251" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3qs-qC-qlH">
+                                <rect key="frame" x="60" y="265" width="195" height="30"/>
+                                <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="254" verticalCompressionResistancePriority="749" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erR-fr-Wsl">
+                                <rect key="frame" x="100" y="303" width="120" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="18"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didPressLogin:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ClX-vn-ZQH"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="254" verticalCompressionResistancePriority="751" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User ID" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xKv-E4-EFZ">
+                                <rect key="frame" x="60" y="227" width="195" height="30"/>
+                                <fontDescription key="fontDescription" name="GillSans-BoldItalic" family="Gill Sans" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="254" verticalCompressionResistancePriority="749" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Dc-4A-aGU">
+                                <rect key="frame" x="60" y="303" width="195" height="42"/>
+                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="18"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didPressLogin:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Qzn-40-TID"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="3Mq-02-zH2">
+                                <rect key="frame" x="142" y="305" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.74748263888888888" blue="0.82016612200435723" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WUN-xJ-9gz" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="H5f-Ab-9Au"/>
+                            <constraint firstAttribute="centerX" secondItem="xKv-E4-EFZ" secondAttribute="centerX" id="PCa-Su-BXw"/>
+                            <constraint firstItem="3tD-OF-TAQ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-8" id="R8Q-3O-LxP"/>
+                            <constraint firstItem="3tD-OF-TAQ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="Uki-wI-fcE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SOZ-Zn-upo" secondAttribute="trailing" constant="-17" id="WyZ-FN-nHh"/>
+                            <constraint firstItem="SOZ-Zn-upo" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="33" id="cec-1v-RoH"/>
+                            <constraint firstItem="WUN-xJ-9gz" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="133" id="kew-af-dsh"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="CeD-dY-c9y" secondAttribute="bottom" constant="-1" id="lCa-7U-nJi"/>
+                            <constraint firstItem="CeD-dY-c9y" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="11" id="v7E-d0-Ijo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="3Mq-02-zH2" id="3rV-jR-ZVM"/>
+                        <outlet property="loginButton" destination="7Dc-4A-aGU" id="ALN-Md-3Na"/>
+                        <outlet property="passwordField" destination="3qs-qC-qlH" id="VJb-ip-hNp"/>
+                        <outlet property="userField" destination="xKv-E4-EFZ" id="xb6-M5-ti1"/>
+                        <segue destination="qxF-Rq-YSv" kind="modal" identifier="GoToRecommendationView" id="Ybe-Ce-Iai"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="128"/>
+        </scene>
+        <!--Recommendations-->
+        <scene sceneID="SZL-S3-oTH">
+            <objects>
+                <viewController id="C3s-e7-tSt" customClass="RecommendationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="feh-7g-P9m"/>
+                        <viewControllerLayoutGuide type="bottom" id="cFv-a1-8KV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JH7-IM-RS9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HsU-hT-0Bn">
+                                <rect key="frame" x="13" y="153" width="295" height="117"/>
+                                <subviews>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="j1U-ps-AKO">
+                                        <rect key="frame" x="261" y="49" width="20" height="20"/>
+                                    </activityIndicatorView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFS-Rc-Snw">
+                                        <rect key="frame" x="18" y="8" width="211" height="101"/>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.44705885648727417" green="0.90588241815567017" blue="0.87450987100601196" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FDg-IO-Iec">
+                                <rect key="frame" x="13" y="96" width="295" height="49"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You are near Beacon:" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iNt-7A-Emh">
+                                        <rect key="frame" x="18" y="8" width="145" height="37"/>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Na-qB-Bjx">
+                                        <rect key="frame" x="171" y="16" width="91" height="25"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.44705885649999999" green="0.90588241820000004" blue="0.87450987099999999" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="0lY-GN-bIk">
+                                <rect key="frame" x="273" y="111" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iAe-Q7-53U">
+                                <rect key="frame" x="13" y="284" width="295" height="113"/>
+                                <subviews>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="dP7-PV-WQh">
+                                        <rect key="frame" x="261" y="44" width="20" height="20"/>
+                                    </activityIndicatorView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="UW0-fh-A7m">
+                                        <rect key="frame" x="13" y="15" width="235" height="90"/>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.44705885649999999" green="0.90588241820000004" blue="0.87450987099999999" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nsu-xQ-XLM">
+                                <rect key="frame" x="13" y="408" width="291" height="128"/>
+                                <subviews>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Xla-rv-0V8">
+                                        <rect key="frame" x="261" y="54" width="20" height="20"/>
+                                    </activityIndicatorView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="2ft-Dp-gm3">
+                                        <rect key="frame" x="18" y="8" width="235" height="112"/>
+                                        <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.44705885649999999" green="0.90588241820000004" blue="0.87450987099999999" alpha="1" colorSpace="deviceRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.65490198135375977" green="0.92156869173049927" blue="0.81568634510040283" alpha="1" colorSpace="deviceRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Recommendations" id="LQ2-bR-KyA"/>
+                    <connections>
+                        <outlet property="discountActivity" destination="Xla-rv-0V8" id="sMO-UW-aMR"/>
+                        <outlet property="discountLabel" destination="2ft-Dp-gm3" id="RAi-vy-Y4k"/>
+                        <outlet property="majorLabel" destination="2Na-qB-Bjx" id="9uk-aG-Se0"/>
+                        <outlet property="recoActivity" destination="dP7-PV-WQh" id="yI0-fN-apw"/>
+                        <outlet property="recommendationLabel" destination="UW0-fh-A7m" id="kv5-9N-xYp"/>
+                        <outlet property="trendingActivity" destination="j1U-ps-AKO" id="c8x-bd-zNa"/>
+                        <outlet property="trendingLabel" destination="jFS-Rc-Snw" id="4v5-Y2-naN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DVh-9y-sDZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1349" y="128"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ulI-uK-GpB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qxF-Rq-YSv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mD8-eh-10V">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="C3s-e7-tSt" kind="relationship" relationship="rootViewController" id="28g-ir-Z3S"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="APM-bY-umJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="754" y="128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Blue Beacon 1.png" width="181" height="105"/>
+        <image name="Blue Beacon 2.png" width="41" height="114"/>
+        <image name="Blue Beacon.png" width="190" height="128"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
