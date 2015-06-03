@@ -1,0 +1,169 @@
+citrus fruit,1,fresh fruits
+tropical fruit,2,fresh fruits
+whole milk,3,dairy
+pip fruit,4,fresh fruits
+other vegetables,5,veggies
+rolls/buns,6,bakery product
+egg plant,7,veggies
+beef,8,poultry
+frankfurter,9,poultry
+chicken,10,poultry
+butter,11,dairy
+fruit/vegetable juice,12,beverage
+packaged fruit/vegetables,13,packaged items
+chocolate,14,desserts
+specialty bar,15,health & sanitory
+butter milk,16,dairy
+bottled water,17,beverage
+yogurt,18,dairy
+sausage,19,poultry
+brown bread,20,bakery product
+hamburger meat,21,poultry
+root vegetables,22,veggies
+pork,23,poultry
+pastry,24,desserts
+canned beer,25,liquor
+berries,26,fruits
+coffee,27,beverage
+misc. beverages,28,beverage
+ham,29,poultry
+turkey,30,poultry
+curd cheese,31,dairy
+red/blush wine,32,liquor
+frozen potato products,33,packaged items
+flour,34,kitchen supplies
+sugar,35,kitchen supplies
+frozen meals,36,packaged items
+herbs,37,cooking products
+soda,38,beverage
+detergent,39,cleaning supplies
+grapes,40,fruits
+processed cheese,41,dairy
+fish,42,poultry
+sparkling wine,43,liquor
+newspapers,44,other
+curd,45,dairy
+pasta,46,kitchen supplies
+popcorn,47,snacks
+finished products,48,packaged items
+beverages,49,beverage
+bottled beer,50,liquor
+dessert,51,desserts
+dog food,52,pet care
+specialty chocolate,53,desserts
+condensed milk,54,dairy
+cleaner,55,cleaning supplies
+white wine,56,liquor
+meat,57,poultry
+ice cream,58,desserts
+hard cheese,59,dairy
+cream cheese ,60,dairy
+liquor,61,liquor
+pickled vegetables,62,veggies
+liquor (appetizer),63,liquor
+UHT-milk,64,dairy
+candy,65,desserts
+onions,66,veggies
+hair spray,67,health & sanitory
+photo/film,68,other
+domestic eggs,69,poultry
+margarine,70,dairy
+shopping bags,71,other
+salt,72,kitchen supplies
+oil,73,kitchen supplies
+whipped/sour cream,74,dairy
+frozen vegetables,75,packaged items
+sliced cheese,76,dairy
+dish cleaner,77,cleaning supplies
+baking powder,78,kitchen supplies
+specialty cheese,79,dairy
+salty snack,80,snacks
+Instant food products,81,packaged items
+pet care,82,pet care
+white bread,83,bakery product
+female sanitary products,84,health & sanitory
+cling film/bags,85,other
+soap,86,health & sanitory
+frozen chicken,87,poultry
+house keeping products,88,cleaning supplies
+spread cheese,89,dairy
+decalcifier,90,cleaning supplies
+frozen dessert,91,desserts
+vinegar,92,kitchen supplies
+nuts/prunes,93,snacks
+potato products,94,veggies
+frozen fish,95,poultry
+hygiene articles,96,health & sanitory
+artif. sweetener,97,kitchen supplies
+light bulbs,98,electronics
+canned vegetables,99,packaged items
+chewing gum,100,health & sanitory
+canned fish,101,poultry
+cookware,102,kitchen supplies
+semi-finished bread,103,bakery product
+cat food,104,pet care
+bathroom cleaner,105,cleaning supplies
+prosecco,106,liquor
+liver loaf,107,bakery product
+zwieback,108,bakery product
+canned fruit,109,packaged items
+frozen fruits,110,packaged items
+brandy,111,liquor
+baby cosmetics,112,baby care
+spices,113,kitchen supplies
+napkins,114,other
+waffles,115,snacks
+sauces,116,condiments
+rum,117,liquor
+chocolate marshmallow,118,desserts
+long life bakery product,119,bakery product
+bags,120,other
+sweet spreads,121,condiments
+soups,122,kitchen supplies
+mustard,123,condiments
+specialty fat,124,other
+instant coffee,125,bakery product
+snack products,126,snacks
+organic sausage,127,poultry
+soft cheese,128,dairy
+mayonnaise,129,dairy
+dental care,130,health & sanitory
+roll products ,131,snacks
+kitchen towels,132,kitchen supplies
+flower soil/fertilizer,133,other
+cereals,134,snacks
+meat spreads,135,poultry
+dishes,136,kitchen supplies
+male cosmetics,137,health & sanitory
+candles,138,other
+whisky,139,liquor
+tidbits,140,health & sanitory
+cooking chocolate,141,kitchen supplies
+seasonal products,142,other
+liqueur,143,liquor
+abrasive cleaner,144,cleaning supplies
+syrup,145,condiments
+ketchup,146,condiments
+cream,147,dairy
+skin care,148,health & sanitory
+rubbing alcohol,149,health & sanitory
+nut snack,150,snacks
+cocoa drinks,151,beverage
+softener,152,cleaning supplies
+organic products,153,other
+cake bar,154,desserts
+honey,155,condiments
+jam,156,condiments
+kitchen utensil,157,kitchen supplies
+flower (seeds),158,other
+rice,159,kitchen supplies
+tea,160,beverage
+salad dressing,161,veggies
+specialty vegetables,162,veggies
+pudding powder,163,kitchen supplies
+ready soups,164,packaged items
+make up remover,165,health & sanitory
+toilet cleaner,166,cleaning supplies
+preservation products,167,packaged items
+sound storage medium,168,other
+baby food,169,baby care
